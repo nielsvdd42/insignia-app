@@ -1,34 +1,67 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  html {
-    font-family: "Ubuntu", sans-serif;
-  }
-  body {
-    background: #eee;
-    padding: 0 16px;
-  }
-  
-  header {
-    background-color: #F4770B;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    display: flex;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-  
-  header h1 {
-    color: #000000;
-    font-family: "Ubuntu", cursive;
-    font-weight: 700;
-    font-size: 24px;
-    margin: auto 20px;
-    display: inline;
-  }
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
 
-  .img-heading {
-    width: 50px;
-    height: 50px;
-  }
+header {
+  background-color: #f4770b;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+header h1 {
+  color: #000000;
+  font-family: "Ubuntu", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  margin: auto 20px;
+  display: inline;
+}
+
+.img-heading {
+  width: 50px;
+  height: 50px;
+}
+
+.myScoutsContainer {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.myScoutsContainer h1 {
+  margin: 20px auto;
+}
+
+.Avatar {
+  width: 80px;
+  margin: auto 20px;
+}
+
+.Avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.Avatar p {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.myScoutsList {
+  display: flex;
+}
+
+.meritBadgesInfoContainer p {
+  margin-top: 20px;
+}
