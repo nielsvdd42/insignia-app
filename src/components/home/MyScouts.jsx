@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "./Avatar";
-import scouts from "../scouts";
+import scouts from "../../data/scouts";
 
 function MyScouts() {
   return (

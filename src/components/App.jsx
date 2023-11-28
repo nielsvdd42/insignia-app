@@ -1,13 +1,14 @@
 import React from 'react'
-import Heading from './Heading'
-import MyScouts from './MyScouts';
-import MeritBadgesInfo from './MeritBagesInfo';
+import { Routes, Route } from 'react-router-dom';
+import Home from './home/Home';
+import SignIn from './signIn/SignIn';
 
 function App(){
     return <div>
-        <Heading />
-        <MyScouts />
-        <MeritBadgesInfo />
+    <Routes>
+        <Route path='/' element={ <Home />}/>
+        <Route path='/sign-in' element={ <SignIn />} />
+    </Routes>
     </div>
 }
 

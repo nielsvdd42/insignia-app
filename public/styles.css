@@ -43,7 +43,7 @@ header h1 {
 }
 
 .Avatar {
-  width: 80px;
+  /* width: 80px; */
   margin: auto 20px;
 }
 
@@ -52,6 +52,10 @@ header h1 {
   height: 80px;
   border-radius: 50%;
 }
+
+.avatar-img {
+  display: flex;
+justify-content: center;}
 
 .Avatar p {
   margin: 10px auto;
@@ -62,6 +66,48 @@ header h1 {
   display: flex;
 }
 
+.navBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.meritBadgesList .Avatar img {
+  height: auto;
+  width: 120px;
+}
+
+/* .meritBadgesList {
+  display: flex;
+}
+
+.meritBadgesList .Avatar {
+  color: blue;
+}
+
+.meritBadgesInfoContainer {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
 .meritBadgesInfoContainer p {
   margin-top: 20px;
+} */
+
+.signInContainer {
+  background-color: #f4770b;
+  width: 400px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.signInPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
